@@ -53,7 +53,7 @@ const Model = ({setState})=>{
     }
     return createPortal(
         <>
-        <div className="modal" onClick={()=>setState(false)}></div>
+        <div className="modalWrapper" onClick={()=>setState(false)}></div>
             <div className={`modal-content d-flex flex-column`}>  
             <form onSubmit={(e)=>handleSubmit(e)}>     
               <h1>Fill Details</h1>
